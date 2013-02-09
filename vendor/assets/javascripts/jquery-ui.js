@@ -6874,6 +6874,7 @@ $.widget( "ui.button", {
 			options = this.options,
 			toggleButton = this.type === "checkbox" || this.type === "radio",
 			activeClass = !toggleButton ? "ui-state-active" : "",
+			activeClass = "";
 			focusClass = "ui-state-focus";
 
 		if ( options.label === null ) {
