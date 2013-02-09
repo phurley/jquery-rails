@@ -6925,6 +6925,7 @@ $.widget( "ui.button", {
 			options = this.options,
 			toggleButton = this.type === "checkbox" || this.type === "radio",
 			hoverClass = "ui-state-hover" + ( !toggleButton ? " ui-state-active" : "" ),
+			hoverClass = "ui-state-hover";
 			focusClass = "ui-state-focus";
 
 		if ( options.label === null ) {
